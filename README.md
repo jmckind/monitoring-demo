@@ -49,6 +49,10 @@ Privileges are granted by assigning one of the following monitoring roles:
 * **monitoring-rules-edit**: (CRUD access to PrometheusRule custom resources)
 * **monitoring-edit**: (same as monitoring-rules-edit but adds CRUD for ServiceMonitor/PodMonitor resources)
 
+Delegation is also possible using the following role in the `openshift-user-workload-monitoring` namespace.
+
+* user-workload-monitoring-config-edit
+
 ```shell
 kubectl apply -n myapp -f monitoring-role-binding.yaml
 ```
