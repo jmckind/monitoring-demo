@@ -51,7 +51,7 @@ Privileges are granted by assigning one of the following monitoring roles:
 
 Delegation is also possible using the following role in the `openshift-user-workload-monitoring` namespace.
 
-* user-workload-monitoring-config-edit
+* **user-workload-monitoring-config-edit** - Allow non-admins to manage user workload monitoring configuration
 
 ```shell
 kubectl apply -n myapp -f monitoring-role-binding.yaml
