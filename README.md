@@ -72,6 +72,9 @@ Select the `Developer` user, select the `Monitoring` section on the left and the
 Enter a custom query and the following metrics should be available.
 
 * http_requests_total
+* http_request_duration_seconds_bucket
+* http_request_duration_seconds_sum
+* http_request_duration_seconds_count
 * version
 
 [link_sample]:https://github.com/brancz/prometheus-example-app
