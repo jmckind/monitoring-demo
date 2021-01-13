@@ -46,8 +46,8 @@ Grant user-level access to manage monitoring resources such as the `ServiceMonit
 Privileges are granted by assigning one of the following monitoring roles:
 
 * **monitoring-rules-view**: READ access to PrometheusRule custom resources
-* **monitoring-rules-edit**: (CRUD access to PrometheusRule custom resources)
-* **monitoring-edit**: (same as monitoring-rules-edit but adds CRUD for ServiceMonitor/PodMonitor resources)
+* **monitoring-rules-edit**: CRUD access to PrometheusRule custom resources
+* **monitoring-edit**: Same as `monitoring-rules-edit` but adds CRUD for ServiceMonitor/PodMonitor resources
 
 Delegation is also possible using the following role in the `openshift-user-workload-monitoring` namespace.
 
